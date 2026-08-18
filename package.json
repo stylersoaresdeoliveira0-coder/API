@@ -1,6 +1,24 @@
 {
-  "name": "ff-pulse-api",
-  "version": "1.0.0",
-  "scripts": { "start": "node server.js" },
-  "dependencies": { "express": "^4.19.0", "cors": "^2.8.5", "ffapis": "^1.5.2" }
+  "name": "ff-likes-api",
+  "version": "1.1.0",
+  "description": "API de likes grátis para Free Fire",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": ["free-fire", "likes", "api"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.3.1",
+    "node-cron": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
 }
